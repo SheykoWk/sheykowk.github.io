@@ -6,7 +6,7 @@ date: 2016-03-21
 comments: false
 ---
     
-<center> [My resume](https://drive.google.com/file/d/1kBEMj8rf-XAQtHUiud78BdhSlY7qKqnh/view?usp=sharing){: .btn} </center>
+<center>[My resume](https://drive.google.com/file/d/1kBEMj8rf-XAQtHUiud78BdhSlY7qKqnh/view?usp=sharing){: .btn}</center>
 
 ## Features
 * Minimal, you can focus on your content
@@ -35,3 +35,4 @@ See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
       
 [](https://github.com/TaylanTatli/Moon){: .btn}
+
