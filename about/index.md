@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About the Theme
+title: Who am I?
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center> [My resume](https://drive.google.com/file/d/1kBEMj8rf-XAQtHUiud78BdhSlY7qKqnh/view?usp=sharing){: .btn} </center>
 
 ## Features
 * Minimal, you can focus on your content
@@ -34,4 +34,4 @@ See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub
 
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
       
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+[](https://github.com/TaylanTatli/Moon){: .btn}
