@@ -246,3 +246,36 @@ kbd {
     font-weight: 300;
     margin-bottom: 10px;
 }
+
+.logo path{
+  fill: transparent;
+  stroke-width: 5;
+  stroke: #ff44b4;
+  stroke-dasharray: 3630;
+  stroke-dashoffset: 3630;
+  animation: animate-logo 2.5s linear forwards;
+}
+@keyframes animate-logo {
+  0%{
+      stroke-dashoffset: 3630;
+  }
+  80%{
+      stroke-dashoffset: 7260;
+      fill: transparent;
+  }
+  90%{
+      stroke-dashoffset: 7260;
+      stroke: #ff44b4;
+  }
+  95%{
+      stroke-dashoffset: 7260;
+      stroke: transparent;
+  }
+  100%{
+      fill: #251d42;
+      stroke: transparent;
+  }
+}
+
+
+
