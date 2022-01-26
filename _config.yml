@@ -5,10 +5,10 @@ description:        "An aspiring developer who loves to take on new projects tha
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
+background:         'assets/img/placeholder-big.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             es_MX
-url:                https://sheykowk.github.io/
+url:                https://sheykowk.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   sh3yk0
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -38,13 +38,13 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 #email:
-twitter:            username
-facebook:           Sh3yk0.dev
-github-url:         username
+twitter:            DevSh3yk0
+#facebook:           Sh3yk0.dev
+github-url:         SheykoWk
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:          username
+linkedin:          sh3yk0
 #xing:              username
-instagram:          username
+instagram:          sh3yk0_wk
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'

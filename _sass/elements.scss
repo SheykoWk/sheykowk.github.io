@@ -10,7 +10,7 @@
     color: $color_shark;
     &:hover {
         box-shadow: 0 0 1px 0 rgba($color_shark, 0.5);
-        color: $red;
+        color: $purple;
     }
 }
 .social-btn {
@@ -249,7 +249,7 @@ kbd {
 
 .logo path{
   fill: transparent;
-  stroke-width: 5;
+  stroke-width: 8;
   stroke: #ff44b4;
   stroke-dasharray: 3630;
   stroke-dashoffset: 3630;
