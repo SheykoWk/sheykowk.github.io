@@ -147,7 +147,7 @@ hr {
 
 // images and figures
 img {
-    display: block;
+    display: inline-block;
     max-width: 100%;
     width: auto;
     height: auto;
@@ -164,6 +164,7 @@ img {
 }
 .author-photo {
     background-color: $white;
+    border-radius: 50%;
 }
 .image-right {
     float: right;
