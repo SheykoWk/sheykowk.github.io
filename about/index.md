@@ -17,20 +17,9 @@ comments: false
 ## 𝓦𝓱𝓪𝓽 𝓘 𝓭𝓸?
 
 ### ** ~ 💻 𝔽𝕦𝕝𝕝 𝕊𝕥𝕒𝕔𝕜 𝕎𝕖𝕓 𝔻𝕖𝕧𝕖𝕝𝕠𝕡𝕖𝕣 💻 ~**
-* Building resposive website front end using React.
-* Implementing secure access to database.
-* Creating application backend in Nodejs and Python.
-* Building TDD web applications with CI.
-* Deploy web applications to production state.
-* Designing and developing APIs.
-* NodeJs with Express for create API's with JWT and OAuth authentication
-* Use Sequelize ORM for connect the backend with the Database
 
-<h2 align="center">           </h2>
 <p>
-<img src="{{ site.url }}/assets/code.gif" align="right">
-</div>
-<div>
+<img src="https://raw.githubusercontent.com/SheykoWk/sheykowk.github.io/main/assets/img/code.gif" align="right" style="margin-bottom : 10px">
 <p align="center">
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E" alt="JavaScript"> <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&amp;logo=gnu-bash&amp;logoColor=white" alt="Shell Script"> <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54" alt="Python"> <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&amp;logo=go&amp;logoColor=white" alt="Go"> <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP"> <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&amp;logo=c&amp;logoColor=white" alt="C"> <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&amp;logo=c-sharp&amp;logoColor=white" alt="C#"> <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&amp;logo=java&amp;logoColor=white" alt="Java">
 <br>
@@ -41,6 +30,14 @@ comments: false
 <img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&amp;logo=vuedotjs&amp;logoColor=%234FC08D" alt="Vue.js"> <img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&amp;logo=jest&amp;logoColor=white" alt="Jest"> <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&amp;logo=angular&amp;logoColor=white" alt="Angular"> <img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&amp;logo=laravel&amp;logoColor=white" alt="Laravel"> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=black" alt="Linux">
 </p>
 
+* Building resposive website front end using React.
+* Implementing secure access to database.
+* Creating application backend in Nodejs and Python.
+* Building TDD web applications with CI.
+* Deploy web applications to production state.
+* Designing and developing APIs.
+* NodeJs with Express for create API's with JWT and OAuth authentication
+* Use Sequelize ORM for connect the backend with the Database
 
 ***
  
