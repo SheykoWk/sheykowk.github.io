@@ -42,11 +42,9 @@ comments: false
  
 ## **~ 🔓 ℙ𝕖𝕟𝕥𝕖𝕤𝕥𝕚𝕟𝕘 𝕒𝕟𝕕 𝔼𝕥𝕙𝕚𝕔𝕒𝕝 ℍ𝕒𝕔𝕜𝕚𝕟𝕘 🔓 ~**
 
-<center>
 
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Kali](https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-</center> 
 
 * Bash Scripting
 * Internet Computer Networks
