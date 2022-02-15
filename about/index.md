@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Who am I?
-tags: [about, Jekyll, theme, moon]
+tags: [about, who am i, what i do, stack development]
 date: 2016-03-21
 comments: false
 ---
@@ -10,7 +10,7 @@ comments: false
 
 ## 𝓦𝓱𝓸 𝓪𝓶 𝓘?
 
-#### An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities
+#### Im Sahid Kick, An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities, I have 21 years old, and I want to contribute to the Developer community, with my knowladge in CyberSecurity and Web Development.
 
 ***
 
