@@ -8,5 +8,13 @@ tag:
 - Ciberseguridad
 - Tutorial
 - Documentacion
+- DoS
+- DDoS
 comments: true
 ---
+
+# Como montar una botnet con ufonet?
+
+### *para uso educativo* 
+
+Antes de iniciar este post, hago un disclaimer de lo que el lector pueda hacer con la informacion aqui mostrada, esto es con fin meramente educativo y que conozcan la manera en la que se hacen los ataques DoS y DDoS
