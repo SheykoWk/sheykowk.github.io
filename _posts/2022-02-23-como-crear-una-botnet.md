@@ -37,3 +37,11 @@ python3-crypto - Algorittmos y protocolos criptográficos para Python
 python3-requests - Libreria HTTP elegante y simple para Python 3
 python3-scapy - Herramienta de seguridad de elaboracion / manipulacion / visualizacion de paquetes
 ```
+
+Clonamos el repositorio en local.
+
+```Bash
+git clone https://github.com/epsylon/ufonet.git
+cd ufonet
+
+```
