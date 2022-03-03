@@ -10,6 +10,7 @@ tag:
 - Documentacion
 - DoS
 - DDoS
+feature: "https://i.imgur.com/1lYdckP.png"
 comments: true
 ---
 
@@ -43,5 +44,4 @@ Clonamos el repositorio en local.
 ```Bash
 git clone https://github.com/epsylon/ufonet.git
 cd ufonet
-
 ```
