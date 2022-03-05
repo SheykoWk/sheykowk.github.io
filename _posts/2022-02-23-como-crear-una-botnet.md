@@ -110,12 +110,12 @@ El uso de esta herramienta es con el siguiente comando:
 
 ## Opciones
 
-| Header1 | Header2 | Header3 |
+## Common Flags
+
+| Opción | Versión corta | Descripcion |
 |:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
+| --version   |    | muestra el número de versión del programa   |
 |----
-| cell1   | cell2   | cell3   |
 | cell4   | cell5   | cell6   |
 |=====
 | Foot1   | Foot2   | Foot3
