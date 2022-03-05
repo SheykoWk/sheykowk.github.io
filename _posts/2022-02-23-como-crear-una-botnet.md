@@ -21,7 +21,7 @@ comments: true
 Antes de iniciar este post, hago un disclaimer de lo que el lector pueda hacer con la informacion aqui mostrada, esto es con fin meramente educativo y que conozcan la manera en la que se hacen los ataques DoS y DDoS
 
 <figure>
-	<a href="https://i.imgur.com/Kco7lCg.png"><img src="https://i.imgur.com/Kco7lCg.png"></a>
+	<img src="https://i.imgur.com/Kco7lCg.png">
 	<figcaption>Version GUI de UFONet.</figcaption>
 </figure>
 
@@ -86,3 +86,26 @@ Origen de las librerias :
 * PyRequests: <a href="https://pypi.python.org/pypi/requests">https://pypi.python.org/pypi/requests</a>
 * Scapy-Python3: <a href="https://pypi.org/project/scapy-python3/">https://pypi.org/project/scapy-python3/</a>
 * Leaflet: <a href="http://leafletjs.com/ ">http://leafletjs.com/ </a> (provided)
+
+
+## Introducción a la herramienta
+UFONet es un software libre, P2P y  criptográfico que permite realizar ataques de denegacion de servicios (DoS) y de denegacion distribuida de servicios (DDoS), en la capa 7 , APP/HTTP (del **Open Systems Interconnection model** ) mediante la explotacion de una vulnerabilidad Open Redirect en sitios web de terceros para asi actuar como botner en la capa 3 (Red) abusando del protocolo.
+
+Tambien funciona como una DarkNET encriptada para publicar y recibir contenido mediante la creacion de una red globar cliente / servidor.
+
+<figure>
+	<img src="https://i.imgur.com/lLHWDKI.png">
+	<figcaption>El uso de este herramienta para atacar objetivos sin previo consentimiento es una practica ilegal.</figcaption>
+</figure>
+
+## Cómo se utiliza?
+
+El uso de esta herramienta es con el siguiente comando:
+
+{% highlight bash %}
+
+./ufonet {options}
+
+{% endhighlight %}
+
+
