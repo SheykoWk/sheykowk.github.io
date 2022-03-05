@@ -46,3 +46,43 @@ Clonamos el repositorio en local.
 git clone https://github.com/epsylon/ufonet.git
 cd ufonet
 {% endhighlight %}
+
+Se pueden descargar automaticamente todas las bibliotecas requeridas usando (como root):
+
+{% highlight bash %}
+python3 setup.py install
+{% endhighlight %}
+
+O se puede instalar manualmente, en sistemas basados en Debian, ejecutando:
+
+{% highlight bash %}
+sudo apt-get install python3-pycurl python3-geoip python3-whois python3-crypto python3-requests python3-scapy libgeoip1 libgeoip-dev
+{% endhighlight %}
+
+En otros sistemas como: Kali, Arch, ParrotSec, Fedora, Red hat, Centos, etc... tambien ejecute:
+
+{% highlight bash %}
+
+pip3 install GeoIP
+pip3 install python-geoip
+pip3 install pygeoip
+pip3 install requests
+pip3 install pycrypto
+pip3 install pycurl
+pip3 install whois
+pip3 install scapy-python3
+
+{% endhighlight %}
+
+Origen de las librerias :
+
+* Python: <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>
+* PyCurl: <a href="http://pycurl.sourceforge.net/">http://pycurl.sourceforge.net/</a>
+* GeoIP: <a href="https://pypi.python.org/pypi/GeoIP/">https://pypi.python.org/pypi/GeoIP/</a>
+* Python-geoip: <a href="https://pypi.org/project/python-geoip/">https://pypi.org/project/python-geoip/</a>
+* Pygeoip: <a href="https://pypi.org/project/pygeoip/">https://pypi.org/project/pygeoip/</a>
+* Whois: <a href="https://pypi.python.org/pypi/whois">https://pypi.python.org/pypi/whois</a>
+* PyCrypto: <a href="https://pypi.python.org/pypi/pycrypto">https://pypi.python.org/pypi/pycrypto</a>
+* PyRequests: <a href="https://pypi.python.org/pypi/requests">https://pypi.python.org/pypi/requests</a>
+* Scapy-Python3: <a href="https://pypi.org/project/scapy-python3/">https://pypi.org/project/scapy-python3/</a>
+* Leaflet: <a href="http://leafletjs.com/ ">http://leafletjs.com/ </a> (provided)
