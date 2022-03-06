@@ -143,9 +143,56 @@ El uso de esta herramienta es con el siguiente comando:
 |:--------|:-------:|--------:|
 | --crypter   |    | Cifrar/descifrar mensajes usando AES256+HMAC-SHA1   |
 |----
-| --network   |  | Mostrar información sobre su red (MAC, IP’s)   ||----
+| --network   |  | Mostrar información sobre su red (MAC, IP’s)   |
 |----
 | --xray=XRAY   |    | Escáner de puerto rápido (por ejemplo: --xray 'http(s)://target-com')   |
 |----
 | --xray-ps=XRAYPS   |    | Establecer rango de puertos para escanear (por ejemplo: --xray-ps '1-1024')
 {: rules="groups"}
+
+## Configuració de las peticiones
+
+| Opción | Versión corta | Descripcion |
+|:--------|:-------:|--------:|
+| --proxy=PROXY   |    | Usar servidor proxy (por ejemplo: - -proxy 'http://127.0.0.1:8118')   |
+|----
+| --user-agent=AGENT   |  | Use otro encabezado HTTP User-Agent (predeterminado: SPOOFED)   |
+|----
+| --referer=REFERER   |    | Use otro encabezado HTTP Referer (predeterminado: SPOOFED)   |
+|----
+| --host=HOST   |    | Use otro encabezado de host HTTP (predeterminado: NINGUNO) |
+| --xforw   |    |  Configure su HTTP X-Forwarded-For con valores de IP aleatorios  |
+|----
+| --xclient   |    |  Establezca su HTTP X-Client-IP con valores de IP aleatorios  |
+|----
+| --timeout=TIMEOUT   |    |  Seleccione su tiempo de espera (predeterminado: 5)  |
+|----
+| --retries=RETRIES   |    |  Reintenta cuando la conexión se agota (predeterminado: 0)  |
+|----
+| --threads=THREADS   |    |  Número máximo de solicitudes HTTP concurrentes (predeterminado: 5)  |
+|----
+| --delay=DELAY   |    |    Retraso entre cada solicitud HTTP (predeterminado: 0)
+{: rules="groups"}
+
+## Busqueda de Zombies
+
+| Opción | Versión corta | Descripcion |
+|:--------|:-------:|--------:|
+| --auto-search   |    | Buscar automáticamente 'zombies' (¡puede llevar tiempo!)   |
+|----
+| -s   | -s | Busca desde un “dork” (ej.: -s 'proxy.php?url=')   |
+|----
+| --sd=DORKS   |    |  Buscar desde el archivo 'dorks' (ej.: --sd 'botnet/dorks.txt')   |
+|----
+| --sn=NUM_RESULTS   |    | Establecer el número máximo de resultados para el motor (predeterminado: 10) |
+| --se=ENGINE   |    |  Motor de búsqueda para 'dorking' (predeterminado: DuckDuckGo)  |
+|----
+| --sa   |    |  Buscar masivamente usando todos los motores (¡puede tomar tiempo!)  |
+|----
+| —sax=EX_ENGINE   |    |  Excluye motores cuando se realizan búsquedas masivas (por ejemplo: 'Bing,Yahoo')  
+{: rules="groups"}
+
+
+
+
+
