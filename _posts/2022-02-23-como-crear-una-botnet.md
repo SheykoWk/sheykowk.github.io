@@ -114,10 +114,25 @@ El uso de esta herramienta es con el siguiente comando:
 
 | Opción | Versión corta | Descripcion |
 |:--------|:-------:|--------:|
-| --version   |    | muestra el número de versión del programa   |
+| - -version   |    | muestra el número de versión del programa   |
 |----
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
+| - -help   | -h   | Muestra este mensaje de ayuda   |
+| - -verbose   |    | muestra el número de versión del programa   |
+|----
+| - -version   |  -v  | activa verbose en las solicitudes   |
+|----
+| - -examples   |    | imprime algunos ejemplos   |
+|----
+| - -timeline   |    |  muestra la línea de tiempo del código del programa  |
+|----
+| - -update   |    |  la comprobación de la última versión estable  |
+|----
+| - -check-tor   |    |  comprueba si Tor esta correctamente instalado  |
+|----
+| - -force-ssl   |    |  fuerza el uso de solicitudes SSL/HTTPS  |
+|----
+| - -force-yes   |    |  establezca 'SÍ' en todas las preguntas  |
+|----
+| - -gui   |    |  Activa la interfaz grafica en el puerto 9999  
 {: rules="groups"}
 
