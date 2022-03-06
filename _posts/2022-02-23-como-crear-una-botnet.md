@@ -114,25 +114,25 @@ El uso de esta herramienta es con el siguiente comando:
 
 | Opción | Versión corta | Descripcion |
 |:--------|:-------:|--------:|
-| - -version   |    | muestra el número de versión del programa   |
+| --version   |    | muestra el número de versión del programa   |
 |----
-| - -help   | -h   | Muestra este mensaje de ayuda   |
-| - -verbose   |    | muestra el número de versión del programa   |
+| --help   | -h   | Muestra este mensaje de ayuda   |
+| --verbose   |    | muestra el número de versión del programa   |
 |----
-| - -version   |  -v  | activa verbose en las solicitudes   |
+| --version   |  -v  | activa verbose en las solicitudes   |
 |----
-| - -examples   |    | imprime algunos ejemplos   |
+| --examples   |    | imprime algunos ejemplos   |
 |----
-| - -timeline   |    |  muestra la línea de tiempo del código del programa  |
+| --timeline   |    |  muestra la línea de tiempo del código del programa  |
 |----
-| - -update   |    |  la comprobación de la última versión estable  |
+| --update   |    |  la comprobación de la última versión estable  |
 |----
-| - -check-tor   |    |  comprueba si Tor esta correctamente instalado  |
+| --check-tor   |    |  comprueba si Tor esta correctamente instalado  |
 |----
-| - -force-ssl   |    |  fuerza el uso de solicitudes SSL/HTTPS  |
+| --force-ssl   |    |  fuerza el uso de solicitudes SSL/HTTPS  |
 |----
-| - -force-yes   |    |  establezca 'SÍ' en todas las preguntas  |
+| --force-yes   |    |  establezca 'SÍ' en todas las preguntas  |
 |----
-| - -gui   |    |  Activa la interfaz grafica en el puerto 9999  
+| --gui   |    |  Activa la interfaz grafica en el puerto 9999  
 {: rules="groups"}
 
