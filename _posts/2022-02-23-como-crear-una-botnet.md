@@ -185,6 +185,7 @@ El uso de esta herramienta es con el siguiente comando:
 | --sd=DORKS   |    |  Buscar desde el archivo 'dorks' (ej.: --sd 'botnet/dorks.txt')   |
 |----
 | --sn=NUM_RESULTS   |    | Establecer el número máximo de resultados para el motor (predeterminado: 10) |
+|----
 | --se=ENGINE   |    |  Motor de búsqueda para 'dorking' (predeterminado: DuckDuckGo)  |
 |----
 | --sa   |    |  Buscar masivamente usando todos los motores (¡puede tomar tiempo!)  |
