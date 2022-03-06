@@ -117,6 +117,7 @@ El uso de esta herramienta es con el siguiente comando:
 | --version   |    | muestra el número de versión del programa   |
 |----
 | --help   | -h   | Muestra este mensaje de ayuda   |
+|----
 | --verbose   |    | muestra el número de versión del programa   |
 |----
 | --version   |  -v  | activa verbose en las solicitudes   |
@@ -142,7 +143,8 @@ El uso de esta herramienta es con el siguiente comando:
 |:--------|:-------:|--------:|
 | --crypter   |    | Cifrar/descifrar mensajes usando AES256+HMAC-SHA1   |
 |----
-| --network   |  | Mostrar información sobre su red (MAC, IP’s)   |
+| --network   |  | Mostrar información sobre su red (MAC, IP’s)   ||----
+|----
 | --xray=XRAY   |    | Escáner de puerto rápido (por ejemplo: --xray 'http(s)://target-com')   |
 |----
 | --xray-ps=XRAYPS   |    | Establecer rango de puertos para escanear (por ejemplo: --xray-ps '1-1024')
