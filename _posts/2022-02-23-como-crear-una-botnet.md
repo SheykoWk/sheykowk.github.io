@@ -184,13 +184,39 @@ El uso de esta herramienta es con el siguiente comando:
 |----
 | --sd=DORKS   |    |  Buscar desde el archivo 'dorks' (ej.: --sd 'botnet/dorks.txt')   |
 |----
-| --sn=NUM_RESULTS   |    | Establecer el número máximo de resultados para el motor (predeterminado: 10) |
+| --sn=RESULTS   |    | Establecer el número máximo de resultados para el motor (predeterminado: 10) |
 |----
 | --se=ENGINE   |    |  Motor de búsqueda para 'dorking' (predeterminado: DuckDuckGo)  |
 |----
 | --sa   |    |  Buscar masivamente usando todos los motores (¡puede tomar tiempo!)  |
 |----
 | —sax=EX_ENGINE   |    |  Excluye motores cuando se realizan búsquedas masivas (por ejemplo: 'Bing,Yahoo')  
+{: rules="groups"}
+
+## Probar la botnet
+
+| Opción | Versión corta | Descripcion |
+|:--------|:-------:|--------:|
+| --test-offline   |    | Comprobación rápida para descartar bots fuera de línea  |
+|----
+| --test-all   |  | Actualizar TODO el estado de botnet (puede llevar tiempo!) |
+|----
+| -t   |  -t  |  Actualizar el estado de 'zombies' (por ejemplo: -t 'botnet/zombies.txt' )   |
+|----
+| --attack-me |    | Ordene a los 'zombis' que lo ataquen (se requiere NAT!)  
+{: rules="groups"}
+
+## Comunidad
+
+| Opción | Versión corta | Descripcion |
+|:--------|:-------:|--------:|
+| --test-offline   |    | Comprobación rápida para descartar bots fuera de línea  |
+|----
+| --test-all   |  | Actualizar TODO el estado de botnet (puede llevar tiempo!) |
+|----
+| -t   |  -t  |  Actualizar el estado de 'zombies' (por ejemplo: -t 'botnet/zombies.txt' )   |
+|----
+| --attack-me |    | Ordene a los 'zombis' que lo ataquen (se requiere NAT!)  
 {: rules="groups"}
 
 
