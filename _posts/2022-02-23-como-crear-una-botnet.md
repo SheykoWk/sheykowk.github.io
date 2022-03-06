@@ -136,3 +136,14 @@ El uso de esta herramienta es con el siguiente comando:
 | --gui   |    |  Activa la interfaz grafica en el puerto 9999  
 {: rules="groups"}
 
+## Herramientas
+
+| Opción | Versión corta | Descripcion |
+|:--------|:-------:|--------:|
+| --crypter   |    | Cifrar/descifrar mensajes usando AES256+HMAC-SHA1   |
+|----
+| --network   |  | Mostrar información sobre su red (MAC, IP’s)   |
+| --xray=XRAY   |    | Escáner de puerto rápido (por ejemplo: --xray 'http(s)://target-com')   |
+|----
+| --xray-ps=XRAYPS   |    | Establecer rango de puertos para escanear (por ejemplo: --xray-ps '1-1024')
+{: rules="groups"}
