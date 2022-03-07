@@ -229,17 +229,13 @@ El uso de esta herramienta es con el siguiente comando:
 | --download |    | Descargar 'zombies' de GitHub 
 {: rules="groups"}
 
-## Probar la botnet
+## Objetivo de investigacion
 
 | Opción | Versión corta | Descripcion |
 |:--------|:-------:|--------:|
-| --test-offline   |    | Comprobación rápida para descartar bots fuera de línea  |
+| -i   |  -i  | Buscar el archivo más grande (por ejemplo: -i 'http(s)://target.com')  |
 |----
-| --test-all   |  | Actualizar TODO el estado de botnet (puede llevar tiempo!) |
-|----
-| -t   |  -t  |  Actualizar el estado de 'zombies' (por ejemplo: -t 'botnet/zombies.txt' )   |
-|----
-| --attack-me |    | Ordene a los 'zombis' que lo ataquen (se requiere NAT!)  
+| -x   | -x | Examinar la configuración del servidor web (+CVE, +detección WAF) 
 {: rules="groups"}
 
 
