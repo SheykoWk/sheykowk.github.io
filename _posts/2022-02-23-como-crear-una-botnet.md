@@ -190,7 +190,7 @@ El uso de esta herramienta es con el siguiente comando:
 |----
 | --sa   |    |  Buscar masivamente usando todos los motores (¡puede tomar tiempo!)  |
 |----
-| —sax=EX_ENGINE   |    |  Excluye motores cuando se realizan búsquedas masivas (por ejemplo: 'Bing,Yahoo')  
+| —sax=ENGINE   |    |  Excluye motores cuando se realizan búsquedas masivas (por ejemplo: 'Bing,Yahoo')  
 {: rules="groups"}
 
 ## Probar la botnet
@@ -210,6 +210,29 @@ El uso de esta herramienta es con el siguiente comando:
 
 | Opción | Versión corta | Descripcion |
 |:--------|:-------:|--------:|
+| --deploy   |    | Implemente datos para compartir en ' /var/www/ufonet/'  |
+|----
+| --grider   |  | Crear un 'grider' para compartir 'estadísticas/juegos de guerra/mensajes' |
+|----
+| --black-hole  |   |  Generar un 'agujero negro' para compartir 'zombis' |
+|----
+| --up-to=UPIP |    | Subir 'zombies' a IP (ej: --up- para '255.255.1.1') |
+|----
+| --down-to=DIP |    | Subir 'zombies' a IP (ej: --up- para '255.255.1.1') | 
+|----
+| --upload-zombies |    | Subir 'zombies' a la comunidad | 
+|----
+| --udownload-zombies |    | Descargar 'zombies' a la comunidad | 
+|----
+| --upload-github |    | Subir 'zombies' a GitHub | 
+|----
+| --download |    | Descargar 'zombies' de GitHub 
+{: rules="groups"}
+
+## Probar la botnet
+
+| Opción | Versión corta | Descripcion |
+|:--------|:-------:|--------:|
 | --test-offline   |    | Comprobación rápida para descartar bots fuera de línea  |
 |----
 | --test-all   |  | Actualizar TODO el estado de botnet (puede llevar tiempo!) |
@@ -218,8 +241,6 @@ El uso de esta herramienta es con el siguiente comando:
 |----
 | --attack-me |    | Ordene a los 'zombis' que lo ataquen (se requiere NAT!)  
 {: rules="groups"}
-
-
 
 
 
