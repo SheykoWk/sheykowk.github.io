@@ -238,5 +238,15 @@ El uso de esta herramienta es con el siguiente comando:
 | -x   | -x | Examinar la configuración del servidor web (+CVE, +detección WAF) 
 {: rules="groups"}
 
+## Configuracion de ataques
 
-
+| Opción | Versión corta | Descripcion |
+|:--------|:-------:|--------:|
+| -a  TARGET |  -a  | [DDoS] ataca un objetivo (ej: -a 'http(s)://target.com')  |
+|----
+| -f TARGET_LIST | -f | [DDoS] ataca una lista de objetivos (ej: -f 'targets.txt') |
+|----
+| -b  PLACE |  -b  |  Set lugar para atacar (ej: -b '/path/big.jpg')   |
+|----
+| -r ROUNDS |  -r  | Establece el número de rondas (por ejemplo: -r '1000') (predeterminado: 1)
+{: rules="groups"}
