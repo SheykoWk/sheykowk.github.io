@@ -270,5 +270,51 @@ El uso de esta herramienta es con el siguiente comando:
 | --no-purge |  | Desactivar la comprobación de ronda de 'Purga de zombis' |
 |----
 | --expire=EXPIRE |  | Establece el tiempo de caducidad para 'Purga de zombis' (predeterminado: 30)
-
 {: rules="groups"}
+
+
+## Ataques Adicionales
+
+| Opción | Versión corta | Descripcion |
+|:--------|:-------:|--------:|
+| --fraggle=FRAGGLE |    |  'Amplificación UDP' (por ejemplo: --fraggle 101) [DDoS] |
+|----
+| --tachyon=TACHYON |  | 'Amplificación DNS' (ej: --tachyon 101) [DDoS] |
+|----
+| --monlist=MONLIST |    |  'Amplificación NTP' (ej: --monlist 101) [DDoS] |
+|----
+| --smurf=SMURF |    |  'Amplificación ICMP ' (ej: --smurf 101) [DDoS] |
+|----
+| --sniper=SNIPER |  | 'SNMP amplification' (ej: --sniper 101) [DDoS] |
+|----
+| --spray=SPRAY |  | 'reflejo TCP-SYN' (ej: --spray 101) [DDoS] |
+|----
+| --db=DBSTRESS |  | 'HTTP-DB flood’ (ej: --db 'search.php?q=') [DDoS] |
+|----
+| --loic=LOIC |  | 'HTTP-FAST flood’ (por ejemplo: -- loic 101) [DoS]|
+|----
+| --loris=LORIS |  | 'HTTP-SLOW flood’ (por ejemplo: --loris 101)  [DoS]|
+|----
+| —ufosyn=UFOSYN  |  | 'TCP-SYN flood’ (por ejemplo: --ufosyn 101)  [DoS]|
+|----
+| —xmas=XMAS |  | 'TCP-XMAS flood’ (por ejemplo: --xmas 101)  [DoS]|
+|----
+| —nuke=NUKE |  | 'TCP-STARVATION flood’ (por ejemplo: --nuke 101)  [DoS]|
+|----
+| —ufoack=UFOACK  |  | 'TCP-ACK flood’ (por ejemplo: --ufoack 101)  [DoS]|
+|----
+| —uforst=UFORST |  | 'TCP-RST flood’ (p. ej.: --uforst 101)  [DoS]|
+|----
+| --droper=DROPER |  | 'IP-FRAGMENTATION flood’ (p. ej.: --droper 101)  [DoS]|
+|----
+| --overlap=OVERLAP |  |  'IP-OVERLAP flood’ (p. ej.: --droper 101)  [DoS]|
+|----
+| --pinger |  | 'ICMP flood' (por ejemplo: --pinger 101) [DoS]| 
+|----
+| --ufoudp=UFOUDP |  | 'UDP flood' (ex: --ufoudp 101) [DoS]
+{: rules="groups"}
+
+
+
+
+
