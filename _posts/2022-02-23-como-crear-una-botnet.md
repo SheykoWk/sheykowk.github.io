@@ -250,3 +250,25 @@ El uso de esta herramienta es con el siguiente comando:
 |----
 | -r ROUNDS |  -r  | Establece el número de rondas (por ejemplo: -r '1000') (predeterminado: 1)
 {: rules="groups"}
+
+## Configuraciones Adicionales
+
+| Opción | Versión corta | Descripcion |
+|:--------|:-------:|--------:|
+| --no-droids |    | Deshabilitar redireccionadores 'DROIDS' |
+|----
+| --no-ucavs |  | Deshabilitar verificadores 'UCAVS' |
+|----
+| --no-aliens |    |  Deshabilitar el abuso web de 'ALIENS'  |
+|----
+| --no-rpcs |    | Deshabilitar los reflectores 'XML-RPCs' |
+|----
+| --no-head |  | Deshabilitar 'Is target up?' Comprobación inicial |
+|----
+| --no-scan |  | Desactivar la comprobación de ronda de 'Escanear escudos' |
+|----
+| --no-purge |  | Desactivar la comprobación de ronda de 'Purga de zombis' |
+|----
+| --expire=EXPIRE |  | Establece el tiempo de caducidad para 'Purga de zombis' (predeterminado: 30)
+
+{: rules="groups"}
