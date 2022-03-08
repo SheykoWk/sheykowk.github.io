@@ -242,13 +242,13 @@ El uso de esta herramienta es con el siguiente comando:
 
 | Opción | Versión corta | Descripcion |
 |:--------|:-------:|--------:|
-| -a  TARGET |  -a  | [DDoS] ataca un objetivo (ej: -a 'http(s)://target.com')  |
+| -a=TARGET |  -a  | [DDoS] ataca un objetivo (ej: -a 'http(s)://target.com')  |
 |----
-| -f TARGET_LIST | -f | [DDoS] ataca una lista de objetivos (ej: -f 'targets.txt') |
+| -f=TARGET_LIST | -f | [DDoS] ataca una lista de objetivos (ej: -f 'targets.txt') |
 |----
-| -b  PLACE |  -b  |  Set lugar para atacar (ej: -b '/path/big.jpg')   |
+| -b=PLACE |  -b  |  Set lugar para atacar (ej: -b '/path/big.jpg')   |
 |----
-| -r ROUNDS |  -r  | Establece el número de rondas (por ejemplo: -r '1000') (predeterminado: 1)
+| -r=ROUNDS |  -r  | Establece el número de rondas (por ejemplo: -r '1000') (predeterminado: 1)
 {: rules="groups"}
 
 ## Configuraciones Adicionales
