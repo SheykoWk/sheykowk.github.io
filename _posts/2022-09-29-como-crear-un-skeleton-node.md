@@ -19,7 +19,16 @@ comments: true
 # Skeleton Node
 ### Que tecnologias y funciones va a incluir este skeleton?
 
-- 
+- Express
+- Bcrypt (para encriptar contraseñas)
+- Middleware de errores
+- Conexion a DB con Sequelize
+- Login de usuarios con Passport y JWT
+- Middleware de permisos de usuario
+- Modelo de usuarios
+- TDD con Mocha y Chai
+- Documentacion en Swagger
+
 
 
 
