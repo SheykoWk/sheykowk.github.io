@@ -9,7 +9,7 @@ tag:
 - Tutorial
 - Documentacion
 feature: "https://i.pinimg.com/564x/2c/61/5b/2c615b4d3c15b6d06cbcf862c754c686.jpg"
-comments: true
+comments: false
 ---
 
 # Roadmap Backend
