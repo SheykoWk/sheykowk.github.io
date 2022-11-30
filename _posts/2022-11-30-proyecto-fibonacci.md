@@ -16,7 +16,7 @@ comments: false
 <br />
 <div align="center">
   <a href="https://github.com/SheykoWk/Fibonacci-API">
-    <img src="https://i.imgur.com/TK4rqUU.png" alt="Logo" width="80" height="80">
+    <img src="https://i.imgur.com/TK4rqUU.png" alt="Logo" width="80px" height="80px">
   </a>
 
   <h3 align="center">Fibonacci API</h3>
